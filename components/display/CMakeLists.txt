@@ -1,0 +1,17 @@
+idf_component_register(
+    SRCS
+        "display.c"
+        "display_rgba8888.c"
+        "display_rgba8888_s3.S"
+        "display_touch.c"
+        "display_ili9341.c"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        esp_lcd
+        esp_driver_gpio
+        esp_driver_spi
+        esp_hw_support
+        esp_timer
+        heap
+)

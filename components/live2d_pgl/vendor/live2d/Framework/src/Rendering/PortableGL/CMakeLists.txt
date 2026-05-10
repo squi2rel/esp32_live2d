@@ -1,0 +1,15 @@
+target_sources(${LIB_NAME}
+  PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismPortableGL.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismPortableGL.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismOffscreenManager_PortableGL.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismOffscreenManager_PortableGL.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismOffscreenRenderTarget_PortableGL.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismOffscreenRenderTarget_PortableGL.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismRenderer_PortableGL.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismRenderer_PortableGL.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismRenderTarget_PortableGL.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismRenderTarget_PortableGL.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismShader_PortableGL.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CubismShader_PortableGL.hpp
+)
